@@ -1,4 +1,5 @@
 import AuthButton from "./AuthButtons";
+import SignupForm from "./SignupForm";
 import styles from "./index.module.css";
 
 export default function Signup() {
@@ -8,6 +9,8 @@ export default function Signup() {
         <AuthButton type="Login" />
         <AuthButton type="Sign Up" />
       </div>
+      <p className={styles.signupHeading}>Sign Up</p>
+      <SignupForm />
     </div>
   );
 }
