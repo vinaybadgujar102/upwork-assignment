@@ -31,3 +31,15 @@
   margin-left: 20px;
   margin-right: 80px;
 }
+
+.authBar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding: 20px;
+  padding-bottom: 12.5px;
+}
+
+.authButtons {
+  border-radius: 33px;
+}
