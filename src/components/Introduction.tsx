@@ -8,10 +8,14 @@ export default function Introduction() {
         <span>About Us</span>
         <span>Contact</span>
       </div>
-      <h1>
-        Claim You Vehicle <br />
-        <span>Quickly</span>
+      <h1 className={styles.heading}>
+        Claim Your <span>Vehicle</span> <br />
+        Quickly
       </h1>
+      <p className={styles.paragraph}>
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit...
+      </p>
     </div>
   );
 }

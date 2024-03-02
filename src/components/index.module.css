@@ -16,3 +16,18 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+.heading {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.heading span {
+  color: #4cb7f5;
+}
+
+.paragraph {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 80px;
+}
