@@ -1,5 +1,14 @@
 .introduction {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.illustration {
+  padding-left: 0px;
+  height: 250px;
+  width: 400px;
+  align-self: center;
 }
 
 .signup {

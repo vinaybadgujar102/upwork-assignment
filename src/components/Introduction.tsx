@@ -1,4 +1,7 @@
 import styles from "./index.module.css";
+import Image from "next/image";
+
+import Illustration from "/home/vinaybadgujar/projects/upwork-assignment/public/illustration.svg";
 
 export default function Introduction() {
   return (
@@ -16,6 +19,12 @@ export default function Introduction() {
         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
         consectetur, adipisci velit...
       </p>
+
+      <Image
+        src={Illustration}
+        alt="Illustration"
+        className={styles.illustration}
+      />
     </div>
   );
 }
